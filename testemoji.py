@@ -11,7 +11,7 @@ with open(jsonfilename, 'r', encoding='utf-8') as rf:
 
 output = '* Emoji TEST  \n\n---\n'
 for name in dictEmoji:
-    spam = '`:{}:` :{}:'.format(name,name)
+    spam = '`:{}:` :{}: '.format(name,name)
     output += spam
 
 with open(testfilename, 'w', encoding='utf-8') as wf:
